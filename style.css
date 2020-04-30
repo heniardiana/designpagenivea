@@ -1,0 +1,106 @@
+body {
+  background-image: url("img/nivea_hijab_newsletter.jpg");
+  background-size: cover;
+}
+
+h2 {
+  font-size: 2.8vw;
+  line-height: 1.6em;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.5vw;
+  font-weight: 100;
+  color:rgb(1, 23, 106);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+   width: 100%;
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  color: rgb(1, 23, 106);
+}
+
+
+hr {
+  border: rgb(3, 29, 121);
+  background-color: rgb(3, 29, 121);
+  height: 0.05em;
+}
+
+.centered {
+  text-align: center;
+}
+
+.btn {
+  font-family: "Nivea";
+  color: #ffffff;
+  background-color: rgb(1, 23, 106);
+  border: rgb(1, 23, 106);
+  font-weight: 900;
+  font-size: 2vw;
+  padding: 2vw;
+  border-radius: 3vw;
+}
+
+.gbr {
+  width: 4%;
+  transition: width 0.5s;
+}
+
+.logo:hover {
+  width: 8%;
+}
+
+.red {
+  background-color: red;
+}
+
+
+.row {
+  margin: 0 7%;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col {
+  float: left;
+  padding: 2% 0;
+}
+
+.col-1 {
+  width: 12.5%;
+}
+.col-2 {
+  width: 25%;
+}
+.col-3 {
+  width: 37.5%;
+}
+.col-4 {
+  width: 50%;
+}
+.col-5 {
+  width: 62.5%;
+}
+.col-6 {
+  width: 75%;
+}
+.col-7 {
+  width: 87.5%;
+}
+.col-8 {
+  width: 100%;
+}
